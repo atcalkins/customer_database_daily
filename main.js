@@ -1,14 +1,14 @@
-let content = [];
+let content = "";
 
 customers.results.forEach(function(client) {
   let template = `
     <div class="customers">
-        <img class="Pic" src="${client.picture.large}">
-        <h3 class="Name">${client.name.first} ${client.name.last}</h3>
-        <h4 class="Email">${client.email}</h4>
-        <p class="Cell">${client.cell}</p>
-        <p class="Location">${client.location.street}</p>
-        <p class="Location">${client.location.city} ${client.location
+        <img class="pic" src="${client.picture.large}">
+        <h3 class="name">${client.name.first} ${client.name.last}</h3>
+        <h4 class="email">${client.email}</h4>
+        <p class="cell">${client.cell}</p>
+        <p class="location">${client.location.street}</p>
+        <p class="location">${client.location.city} ${client.location
     .state} ${client.location.postcode}</p>
     </div>
     `;

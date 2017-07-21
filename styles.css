@@ -11,12 +11,12 @@ h1 {
   margin: 20px;
 }
 
-.Pic {
+.pic {
   width: 200px;
   margin: 10px;
 }
 
-.Name {
+.name {
   text-align: center;
   text-transform: uppercase;
   text-decoration: underline;
@@ -24,16 +24,16 @@ h1 {
   margin: 0 20px 0 20px;
 }
 
-.Email {
+.email {
   text-align: center;
   color: grey;
 }
 
-.Cell {
+.cell {
   text-align: center;
 }
 
-.Location {
+.location {
   text-align: center;
   color: grey;
 }
