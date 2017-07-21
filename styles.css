@@ -1,0 +1,39 @@
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+.Pic {
+  width: 200px;
+  margin: 10px;
+}
+
+.Name {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+
+  margin: 0 20px 0 20px;
+}
+
+.Email {
+  text-align: center;
+  color: grey;
+}
+
+.Cell {
+  text-align: center;
+}
+
+.Location {
+  text-align: center;
+  color: grey;
+}
